@@ -1,0 +1,40 @@
+header {
+    background-image: url(images/header.jpg); 
+    height: 500px; 
+}
+nav li {
+   display: inline; 
+   padding: 20px;
+   margin-left: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 30px;
+   color: brown;
+}
+nav {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+#tableau {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#tableau {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer{
+    background-color: rgb(43, 42, 42);
+    height: 200px;
+}
+footer p{
+    color: white;
+    padding : 30px;
+}
