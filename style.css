@@ -1,6 +1,14 @@
 header {
-    background-image: url(images/header.jpg); 
-    height: 500px; 
+  
+  background-image: url(images/header.jpg); 
+      /* Set a specific height */
+      min-height: 1000px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 }
 nav li {
    display: inline; 
