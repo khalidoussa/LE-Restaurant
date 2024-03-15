@@ -27,31 +27,27 @@
 <main>
     <div>
         <h2 id="contact">
-            contactez-nous
+             contactez-nous
         </h2>
     </div>
     <form>
         <fieldset>
            <label for="nom">votre nom</label>
-           <input type="text" name="nom" id="nom" required>
+           <input type="text" name="nom" id="nom" placeholder="entrez votre nom"  >
            <br>
            <label for="email">votre e-mail</label>
-           <input type="email" name="email" id="email"required>
+           <input type="email" name="email" id="email" placeholder="entrez votre mail" >
            <br>
            <label for="téléphone"> téléphone: </label>
-           <input type ="number" name="tel" Pattern="[0-9]{10}"  placeholder="entrez votre numéro" required/>
+           <input type ="tel" name="tel" Pattern="[0-9]{10}"  placeholder="entrez votre numéro" />
            <br>
            <label for="message">Message:</label>
            <br>
-              <textarea name="message" id="message" cols="40" rows="4"></textarea>
+              <textarea name="message" id="message" cols="40" rows="4" placeholder="entrez votre message" ></textarea>
               <br>
               <input type="submit" value="envoyer" class="envoyer">
         </fieldset>
       </form>
-
-
-
-
 
 
 
@@ -66,4 +62,5 @@
       <p id="copy">©Copyright 2050. Tous droits réservés.</p>
     </footer>
   </body>
+  <script src="page.js"></script>
 </html>
